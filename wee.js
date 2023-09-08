@@ -19,15 +19,15 @@ async function check(){
   humid.innerText=`${data.main.humidity}%`
   wthr.innerText=data.weather[0].main
   if(data.weather[0].main=="Clear"){
-    img.src="clear"
+    img.src="clear.txt"
   }
   if(data.weather[0].main=="Clouds"){
-    img.src="clou"
+    img.src="clou.txt"
   }
   if(data.weather[0].main=="Haze"){
-    img.src="haze"}
+    img.src="haze.txt"}
   if(data.weather[0].main=="Drizzle"){
-    img.src="llrain"
+    img.src="llrain.txt"
   
   }
   
