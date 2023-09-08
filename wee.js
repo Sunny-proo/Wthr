@@ -32,6 +32,10 @@ async function check(){
     img.src="llrain.txt"
   
   }
+   if(data.weather[0].main=="Rain"){
+    img.src="hrain.txt"
+  
+  }
 if(data.weather[0].main=="Mist"){
     img.src="mist.txt"
   
